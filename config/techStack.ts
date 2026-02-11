@@ -6,6 +6,10 @@ export const techStack: TechStack[] = [
     logoUrl: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/reactjs.svg"
   },
   {
+    name: "React Native",
+    logoUrl: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/reactjs.svg"
+  },
+  {
     name: "React Query",
     logoUrl: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/react_query.svg"
   },
