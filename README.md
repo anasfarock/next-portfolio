@@ -41,8 +41,8 @@ To run this project locally, follow these steps:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/anasfarock/my-portfolio-website.git
-cd my-portfolio-website
+git clone https://github.com/anasfarock/next-portfolio.git
+cd next-portfolio
 ```
 
 ### 2. Install dependencies
