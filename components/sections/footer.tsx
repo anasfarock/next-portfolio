@@ -14,7 +14,7 @@ const Footer = ({ graph = true }: { graph?: boolean }) => {
         <div className="flex flex-col md:flex-row w-full justify-between gap-2 md:gap-1 items-start md:items-end mt-8">
           <div className="flex-col text-start text-muted-foreground">
             <p className="font-cursive text-5xl">
-              Anas
+              Anas Farooq
             </p>
             <LastUpdated />
           </div>
