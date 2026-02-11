@@ -7,12 +7,12 @@ const About = () => {
   const { about } = userData;
 
   // Split the about text into parts
-  const beforeSoftwareEngineer = about.split("A software engineer")[0];
-  const afterSoftwareEngineer = about.split("A software engineer")[1];
-  const previouslyWorkedPart = afterSoftwareEngineer.split(
-    "\nPreviously I worked"
-  )[1];
-  const mainPart = afterSoftwareEngineer.split("\nPreviously I worked")[0];
+  const splitRegex = /a software engineer/i;
+  const parts = about.split(splitRegex);
+  const beforeSoftwareEngineer = parts[0];
+  const afterSoftwareEngineer = parts[1] || "";
+  // previouslyWorkedPart logic removed as it was unused and caused crashes with new data
+  const mainPart = afterSoftwareEngineer;
 
   return (
     <div className="border-b border-border border-dashed">

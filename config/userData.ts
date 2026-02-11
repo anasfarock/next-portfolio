@@ -9,7 +9,7 @@ const userData: UserData = {
     twitter: "https://x.com/AnasFarq",
   },
   about:
-    "Hello, I'm Anas Farooq. A software engineer who codes and designs with purpose. I build standout products by blending problem-solving with design thinking — getting 1% better every day.",
+    "Hello, I’m Anas Farooq a software engineerwho builds scalable, high-impact digital products. I work across frontend, backend, mobile development, and explore AI-driven solutions to solve real-world problems. With a strong interest in fintech, I combine engineering precision with design thinking to create smart, user-focused systems.",
   experience: [
     {
       id: 1,
