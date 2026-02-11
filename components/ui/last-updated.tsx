@@ -6,7 +6,7 @@ const getCachedPortfolioUpdate = unstable_cache(
         try {
             const lastUpdate = await getRepoLastUpdate({
                 owner: 'anasfarock',
-                repo: 'Anas.tech',
+                repo: 'next-portfolio',
                 token: process.env.GITHUB_TOKEN
             });
 
