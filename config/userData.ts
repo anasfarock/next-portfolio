@@ -9,7 +9,7 @@ const userData: UserData = {
     twitter: "https://x.com/AnasFarq",
   },
   about:
-    "Hello, I'm Anas. A software engineer who codes and designs with purpose. I build standout products by blending problem-solving with design thinking — getting 1% better every day.",
+    "Hello, I'm Anas Farooq. A software engineer who codes and designs with purpose. I build standout products by blending problem-solving with design thinking — getting 1% better every day.",
   experience: [
     {
       id: 1,
@@ -19,7 +19,7 @@ const userData: UserData = {
       endDate: "Aug 2024",
       link: "https://www.techaccesspak.com/",
       description:
-        "Working on KeychainOS — a smart operating system for CPG manufacturers.\nShipping features like internal PO approval, lot number configuration, dynamic titles for food safety forms, form field type changes, and Keychain AI search.\nWorked in the FDE team, solving bugs and shipping customer enhancements quickly.\nFrom understanding to PRD to writing TRDs, collaborating with peer engineers and product managers daily.",
+        "Provided hands-on support for IT infrastructure and system administration tasks in an on-site enterprise environment.\nAssisted in troubleshooting hardware, software, and network-related issues to ensure minimal downtime.\nCollaborated with the IT team to implement system updates and security patches.\nDocumented IT procedures and user guides for internal reference. \nDeveloped a strong understanding of IT service workflows, technical support processes, and enterprise environments.",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const userData: UserData = {
       endDate: "Feb 2023",
       link: "https://zayup.com/",
       description:
-        "Worked on the Venus codebase to ship features like AI chat, the screener page, and citations in markdown content, plus bug fixes.\nBuilt and maintained internal platforms like Tmhcc, enabling multi-agent data processing workflows.\nWorked on Validex, a rule-based document validation engine supporting custom presets for compliance checking.\nBuilt Docs, a unified documentation system using MDX, OpenAPI, and Fuma Docs with a live API playground.\nLeveraged Zustand, React Query, Next.js, and Tailwind CSS across projects to ensure state management, responsive UIs, and efficient data fetching.",
+        "Provided real-time technical assistance and resolved service-related issues efficiently. \nHandled inbound customer queries related to communication services.\nMaintained high customer satisfaction by delivering clear, professional, and timely support. \nStrengthened communication, conflict resolution, and problem-solving skills in a fast-paced environment.",
     },
   ],
   projects: [
