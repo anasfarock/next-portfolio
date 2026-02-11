@@ -1,15 +1,15 @@
 export const siteConfig = {
   name: "Anas Farooq",
   description: "A software engineer who codes and designs with purpose.",
-  url: "https://Anas.tech",
+  url: "https://anasfarooq.com",
 
   // Personal Information
   author: {
     name: "Anas Farooq",
     email: "contact@anasfarooq.com",
-    twitter: "@Anastwt",
+    twitter: "@AnasFarq",
     github: "anasfarock",
-    linkedin: "Anaskushwah",
+    linkedin: "anasfarock",
   },
 
   // Leave empty objects or comment out sections you don't want to use

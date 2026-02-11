@@ -1,6 +1,6 @@
 import userData from "@/config/userData";
 import TextButton from "../ui/text-button";
-import { InducedAIIcon, UnoloIcon } from "../icons";
+import { TechAccessIcon, ZayupIcon } from "../icons";
 import Link from "next/link";
 
 const About = () => {
@@ -33,7 +33,7 @@ const About = () => {
               Previously, I worked at&nbsp;
               {/* Induced AI */}
               <Link href="https://www.induced.ai/" target="_blank" rel="noopener noreferrer" className="cursor-pointer inline-flex items-center gap-1.5 mx-1 translate-y-1.5">
-                <InducedAIIcon className="size-5.5 border border-[#212121] rounded-sm bg-gradient-to-b from-black to-black/90" />
+                <TechAccessIcon className="size-5.5 border border-[#212121] rounded-sm bg-gradient-to-b from-black to-black/90" />
                 <span
                   className="text-sm border-b cursor-pointer border-dashed border-foreground/60 text-foreground hover:text-primary transition-colors"
                 >
@@ -43,7 +43,7 @@ const About = () => {
               &nbsp;and&nbsp;
               {/* Unolo */}
               <Link href="https://unolo.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer inline-flex items-center gap-1.5 mx-1 translate-y-0.5">
-                <UnoloIcon className="size-4" />
+                <ZayupIcon className="size-4" />
                 <span
                   className="text-sm border-b cursor-pointer border-dashed border-foreground/60 text-foreground hover:text-primary transition-colors"
                 >
