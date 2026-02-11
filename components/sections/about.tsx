@@ -31,26 +31,26 @@ const About = () => {
           <div className="mt-6">
             <div className="text-muted-foreground leading-relaxed">
               Previously, I worked at&nbsp;
-              {/* Induced AI */}
-              <Link href="https://www.induced.ai/" target="_blank" rel="noopener noreferrer" className="cursor-pointer inline-flex items-center gap-1.5 mx-1 translate-y-1.5">
+              {/* Techaccess */}
+              <Link href="https://www.techaccesspak.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer inline-flex items-center gap-1.5 mx-1 translate-y-1.5">
                 <TechAccessIcon className="size-5.5 border border-[#212121] rounded-sm bg-gradient-to-b from-black to-black/90" />
                 <span
                   className="text-sm border-b cursor-pointer border-dashed border-foreground/60 text-foreground hover:text-primary transition-colors"
                 >
-                  Induced AI
+                  Techaccess
                 </span>
               </Link>
               &nbsp;and&nbsp;
-              {/* Unolo */}
-              <Link href="https://unolo.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer inline-flex items-center gap-1.5 mx-1 translate-y-0.5">
+              {/* Zayup */}
+              <Link href="https://zayup.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer inline-flex items-center gap-1.5 mx-1 translate-y-0.5">
                 <ZayupIcon className="size-4" />
                 <span
                   className="text-sm border-b cursor-pointer border-dashed border-foreground/60 text-foreground hover:text-primary transition-colors"
                 >
-                  Unolo
+                  Zayup Communications
                 </span>
               </Link>
-              &nbsp;as Frontend Engineer.
+              &nbsp;as Customer Support Executive and Technical Intern.
             </div>
           </div>
 
