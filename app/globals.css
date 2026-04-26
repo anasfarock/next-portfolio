@@ -156,6 +156,7 @@
   from {
     transform: scaleX(1);
   }
+
   to {
     transform: scaleX(0);
   }
@@ -188,9 +189,11 @@
   ::-webkit-scrollbar {
     width: 5px;
   }
+
   ::-webkit-scrollbar-track {
     background: transparent;
   }
+
   ::-webkit-scrollbar-thumb {
     background: var(--border);
     border-radius: 5px;
@@ -225,7 +228,9 @@
     }
 
     &[data-callout="danger"] {
-      @apply bg-red-500/10 **:!text-red-700 !border-l-red-700 dark:!border-l-red-500 dark:**:!text-red-500;
+      @apply bg-red-500/10 !border-l-red-700 dark:!border-l-red-500;
+      & * { color: rgb(185 28 28) !important; }
+      &:is(.dark *) * { color: rgb(239 68 68) !important; }
     }
   }
 }
@@ -252,8 +257,10 @@
 
   /* Hide scrollbar for IE, Edge and Firefox */
   .no-scrollbar {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
   }
 
   /* Hide scrollbars inside Base UI ScrollArea */
@@ -296,10 +303,26 @@
   pointer-events: none;
 }
 
+/* GitHub calendar: scale to fill full container width */
+.react-activity-calendar {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Only the main grid SVG — not the legend color-square SVGs */
+.react-activity-calendar>svg {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+}
+
+
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
