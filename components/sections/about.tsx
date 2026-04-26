@@ -1,6 +1,6 @@
 import userData from "@/config/userData";
 import TextButton from "../ui/text-button";
-import { TechAccessIcon, ZayupIcon } from "../icons";
+import { TechAccessIcon } from "../icons";
 import Link from "next/link";
 
 const About = () => {
@@ -40,17 +40,7 @@ const About = () => {
                   Techaccess
                 </span>
               </Link>
-              &nbsp;and&nbsp;
-              {/* Zayup */}
-              <Link href="https://zayup.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer inline-flex items-center gap-1.5 mx-1 translate-y-0.5">
-                <ZayupIcon className="size-4" />
-                <span
-                  className="text-sm border-b cursor-pointer border-dashed border-foreground/60 text-foreground hover:text-primary transition-colors"
-                >
-                  Zayup Communications
-                </span>
-              </Link>
-              &nbsp;as Customer Support Executive and Technical Intern.
+              &nbsp;as Technical Intern.
             </div>
           </div>
 

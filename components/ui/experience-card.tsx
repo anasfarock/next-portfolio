@@ -3,11 +3,10 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { TechAccessIcon, ZayupIcon } from "../icons";
+import { TechAccessIcon } from "../icons";
 
 export enum Company {
   TechaccessPakistan = "Techaccess Pakistan",
-  ZayupCommunications = "Zayup Communications",
 }
 
 type ExperienceCardProps = {
@@ -26,9 +25,6 @@ const getIcon = (companyName: string): React.ReactNode | null => {
   const iconMap: Record<Company, React.ReactNode> = {
     [Company.TechaccessPakistan]: (
       <TechAccessIcon className="size-11 sm:size-12 bg-[#FFEC44] border rounded-lg" />
-    ),
-    [Company.ZayupCommunications]: (
-      <ZayupIcon className="size-11 sm:size-12 bg-[#090909] border rounded-lg" />
     ),
   };
 
