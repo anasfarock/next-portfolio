@@ -34,8 +34,8 @@ const ProjectCard = ({
         height={600}
         className="w-full h-[13rem] object-cover object-top rounded-lg transition-all duration-150 group-hover/projects:opacity-40 group-hover:!opacity-100"
       />
-      <div className="flex items-center justify-between">
-        <span className="inline-flex justify-start items-center -mb-2 gap-2">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 sm:gap-2">
+        <span className="inline-flex justify-start items-center gap-2">
           <TextButton text={title} textSize={18} uppercase="capitalize" />
           {working && (
             <span className="ml-2 text-xs text-foreground border border-blue-400/20 bg-blue-100 dark:bg-blue-400/30 transition-all rounded-md px-2 py-0.5">
