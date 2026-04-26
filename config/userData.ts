@@ -3,13 +3,13 @@ import type { UserData } from "@/types";
 const userData: UserData = {
   personalInfo: {
     name: "Anas Farooq",
-    profession: "SOFTWARE ENGINEER",
+    profession: "Web/App Developer",
     email: "contact@anasfarooq.com",
     github: "https://github.com/anasfarock",
     twitter: "https://x.com/nasfarooq",
   },
   about:
-    "Hello, I’m Anas Farooq a software engineerwho builds scalable, high-impact digital products. I work across frontend, backend, mobile development, and explore AI-driven solutions to solve real-world problems. With a strong interest in fintech, I combine engineering precision with design thinking to create smart, user-focused systems.",
+    "Hello, I’m Anas Farooq a Web/App Developerwho builds scalable, high-impact digital products. I work across frontend, backend, mobile development, and explore AI-driven solutions to solve real-world problems. With a strong interest in fintech, I combine engineering precision with design thinking to create smart, user-focused systems.",
   experience: [
     {
       id: 1,

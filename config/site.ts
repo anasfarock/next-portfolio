@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Anas Farooq",
-  description: "A software engineer who codes and designs with purpose.",
+  description: "A Web/App Developer who codes and designs with purpose.",
   url: "https://anasfarooq.com",
 
   // Personal Information

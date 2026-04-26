@@ -115,12 +115,12 @@ const ExperienceCard = ({
             aria-disabled={!hasDescription}
           >
             <h3 className="text-base uppercase">{role}</h3>
-            <div className="flex w-full justify-between items-center">
-              <p className="text-sm text-muted-foreground sm:w-[100px] sm:pr-0 pr-2 group-hover:text-foreground transition-colors">
+            <div className="flex flex-col sm:flex-row w-full sm:items-center">
+              <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors whitespace-nowrap">
                 {companyName}
               </p>
-              <div className="grow border-b border-dashed border-border" />
-              <p className="text-sm text-muted-foreground text-right w-[170px] group-hover:text-foreground transition-colors">
+              <div className="hidden sm:block grow border-b border-dashed border-border mx-4" />
+              <p className="text-sm text-muted-foreground sm:text-right whitespace-nowrap group-hover:text-foreground transition-colors mt-0.5 sm:mt-0">
                 {startDate} - {endDate}
               </p>
             </div>

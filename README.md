@@ -4,7 +4,7 @@
 
 ## 🚀 About Me
 
-Hi, I'm **Anas Farooq** — a **Software Engineer** who builds scalable, high-impact digital products. I work across frontend, backend, and mobile, checking out AI-driven solutions to solve real-world problems. With a strong interest in fintech, I combine engineering precision with design thinking to create smart, user-focused systems — getting 1% better every day.
+Hi, I'm **Anas Farooq** — a **Web/App Developer** who builds scalable, high-impact digital products. I work across frontend, backend, and mobile, checking out AI-driven solutions to solve real-world problems. With a strong interest in fintech, I combine engineering precision with design thinking to create smart, user-focused systems — getting 1% better every day.
 
 🌐 **Live Site:** [anasfarooq.com](https://anasfarooq.com)
 

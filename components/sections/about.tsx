@@ -7,7 +7,7 @@ const About = () => {
   const { about } = userData;
 
   // Split the about text into parts
-  const splitRegex = /a software engineer/i;
+  const splitRegex = new RegExp("a Web/App Developer", "i");
   const parts = about.split(splitRegex);
   const beforeSoftwareEngineer = parts[0];
   const afterSoftwareEngineer = parts[1] || "";
@@ -22,7 +22,7 @@ const About = () => {
           <div className="mt-4">
             A&nbsp;
             <h1 className="inline-block border-foreground/60 text-foreground">
-              Software Engineer
+              Web/App Developer
             </h1>
             &nbsp;{mainPart}
           </div>
